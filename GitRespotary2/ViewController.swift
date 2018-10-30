@@ -11,9 +11,11 @@ import UIKit
 class ViewController: UIViewController {
 
     var str = "Ramesh"
+    var str2 = "Ramesh2"
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Print str \(str)")
+        print("Print str \(str2)")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
